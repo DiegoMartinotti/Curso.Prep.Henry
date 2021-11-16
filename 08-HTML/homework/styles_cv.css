@@ -1,0 +1,88 @@
+body {
+    font-family: sans-serif;
+    margin-right: 8%;
+    margin-left: 8%;
+}
+
+.rowDiv {
+    background-color: lightseagreen;
+    display: flex; 
+    flex-direction: row;
+    justify-content:space-between;  
+    border-style: solid;
+    border-color: black;
+    border-width: 1px; 
+     
+           
+}
+
+.divNombre {
+
+    position: relative;
+    width: 60%;   
+    
+    
+}
+
+
+.pNombre{
+    margin-bottom: 5% ;
+    margin-left: 5%;
+    font-size: 30pt;
+    position: absolute; left: 0; bottom: 0;
+}
+
+.divInfo{
+    width: 600px;
+    font-weight: bold;
+}
+
+.ulSinIndicador {
+    list-style-type: none;
+    text-align: end;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    
+    }
+
+li {padding-bottom: 10px;
+    }
+
+.divImagen{   
+       
+        width: 200px ;
+        
+        
+
+}
+
+img{
+        /* flex: 1; */
+        object-fit:cover;
+        width: 100%;
+        height: 100%;
+    }
+   
+
+
+
+.divContenido {
+    /* height: 13%; */
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    
+        }
+
+h2 {
+    margin-left: 10px;
+}
+
+p {
+    padding-left: 25px;
+}
+
+
+
+    
